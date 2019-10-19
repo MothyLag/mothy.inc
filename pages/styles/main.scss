@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+.envelope {
+  display: grid;
+  grid-template-rows: 4rem calc(100vh - 8rem) 4rem;
+  background: url('/sky&clouds.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.footer {
+  background-color: aqua;
+}
+
+.main {
+}

@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'title';
+  src: url('/fonts/Pacifico-Regular.ttf') format('truetype');
+}
+nav {
+  a {
+    text-decoration: none;
+    color: white;
+    :hover {
+      color: white;
+    }
+  }
+  display: flex;
+  grid-template-columns: 25% * 4;
+  padding: 0em 1em;
+  height: 100%;
+  //background-color: rgba($color: #000000, $alpha: 0.5);
+  align-items: center;
+  color: white;
+  .brand {
+    a {
+      order: 1;
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      font-family: 'title';
+      font-size: 25px;
+      img {
+        max-width: 45px;
+      }
+    }
+  }
+  .left {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 3em;
+    order: 2;
+    flex-grow: 1;
+  }
+  .right {
+    display: flex;
+    order: 3;
+    flex-grow: 1;
+    justify-content: flex-end;
+  }
+}
